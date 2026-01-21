@@ -10,7 +10,7 @@ namespace BlogApi.Controllers;
 [Route("api/[controller]")]
 public class PostsController : ControllerBase
 {
-    // Phase 1: in-memory "database"
+    // started with in-memory data structure and moved to persistent database
     private readonly BlogDbContext _db;
 
     public PostsController(BlogDbContext db)
