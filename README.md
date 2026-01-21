@@ -1,13 +1,13 @@
 # PersonalBlogAPI
 RESTful blog API  using ASP.NET, EF Core, and SQLite. Provides full CRUD operations.
 ## Features
-- Create, read, update, delete blog posts
-- persistent storage using relation databse
+- Create, read, update, and delete blog posts
+- persistent storage using relational database
 - API documentation with Swagger
 - RESTful endpoints
 
 ## API Endpoints
-| Header 1 | Header 2 | Header 3 |
+| Method | Endpoint | Description |
 |---|---|---|
 | GET | /api/Posts | Gets all posts |
 | POST | /api/Posts | Create post |
